@@ -30,6 +30,10 @@ services:
 
     app.security.authentication_event_listener:
         class: AppBundle\EventSubscriber\SecuritySubscriber
+        arguments:
+            - "@doctrine.orm.entity_manager"
+            - "@security.token_storage"
+            - "@security.authentication_utils"
         tags:
             - { name: kernel.event_subscriber }
 
