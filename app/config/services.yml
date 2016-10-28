@@ -34,6 +34,7 @@ services:
             - "@doctrine.orm.entity_manager"
             - "@security.token_storage"
             - "@security.authentication_utils"
+            - "%thisdata_api_key%"
         tags:
             - { name: kernel.event_subscriber }
 
