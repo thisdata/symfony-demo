@@ -1,3 +1,27 @@
+ThisData + Symfony Demo Application
+------------------------
+
+This is a fork of [the Symfony Demo Application](https://github.com/symfony/symfony-demo), and adds event tracking using
+ThisData.
+
+We explain what we've done on our blog, [_"Subscribing to Symfony's Security Events"_](https://thisdata.com/blog/subscribing-to-symfonys-security-events)
+
+> The most common way to listen to an event is to register either an event "listener", or an event "subscriber". We're going to use Subscribers. In this post we'll create a Subscriber which listens for successful and unsuccessful Log In events, and responds by sending information to ThisData.
+
+
+**Compare the differences to see what we've added:
+https://github.com/symfony/symfony-demo/compare/master...thisdata:master**
+
+![](https://thisdata.com/blog/content/images/2016/10/symfony_php_thisdata_event_subscriber.png)
+
+<br />
+<br />
+<br />
+<br />
+<br />
+
+---
+
 Symfony Demo Application
 ========================
 
